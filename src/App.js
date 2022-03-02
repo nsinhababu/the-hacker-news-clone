@@ -1,9 +1,9 @@
 //components
-import Header from './Header';
-import Main from './Main';
-import Deals from './Deals';
-import EmailSection from './EmailSection';
-import Footer from './Footer';
+import Header from './Components/Header';
+import Main from './Components/Main';
+import Deals from './Components/Deals';
+import EmailSection from './Components/EmailSection';
+import Footer from './Components/Footer';
 
 import './App.css';
 
