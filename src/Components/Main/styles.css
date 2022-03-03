@@ -3,17 +3,62 @@
   justify-content: center;
   padding-top: 25px;
 }
-.container {
+.main__container {
   width: 1120px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   padding: 0 35px 25px;
 }
+.main__content-container {
+  width: calc(100% - 300px);
+  display: flex;
+  flex-direction: column;
+}
 .recent-event-container {
-  flex: 2;
+  padding-right: 35px;
+  width: 100%;
 }
 .popular-weekly {
+  width: 300px;
+}
+.button-container {
+  height: 85px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* Cards */
+.card__container {
+  height: 162px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.card__img {
+  width: 305px;
+  height: 162px;
+  border: 1px solid black;
+}
+.card__content-container {
+  width: 405px;
+  height: 162px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__hdng {
+  border: 1px solid black;
+  flex: 3;
+}
+.card__author {
+  border: 1px solid black;
   flex: 1;
-  margin-left: 50px;
+}
+.card__content {
+  border: 1px solid black;
+  flex: 2;
 }
