@@ -1,3 +1,12 @@
+export const WeeklyCard = () => {
+  return (
+    <div className='weekly-card-container'>
+      <img src='' alt='' className='weekly-card-img' />
+      <div className='weekly-card-title'></div>
+    </div>
+  );
+};
+
 const Card = () => {
   return (
     <div className='card__container'>

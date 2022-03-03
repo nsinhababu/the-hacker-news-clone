@@ -1,5 +1,6 @@
 // Components
 import Card from './card';
+import { WeeklyCard } from './card';
 
 // CSS
 import './styles.css';
@@ -23,7 +24,10 @@ const Main = () => {
           </div>
         </div>
 
-        <div className='popular-weekly'></div>
+        <div className='popular-weekly'>
+          <div className='weekly-hdng'>Popular This Week</div>
+          <WeeklyCard />
+        </div>
       </div>
     </main>
   );
