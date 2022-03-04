@@ -1,3 +1,6 @@
+// CSS
+import './styles.css';
+
 const EmailSection = () => {
   return (
     <div className='email__section-background'>

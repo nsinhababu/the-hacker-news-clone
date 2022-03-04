@@ -1,0 +1,40 @@
+.deals {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.deals-hdng {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  font-weight: 900;
+}
+
+.deals-card-container {
+  display: flex;
+  width: 1120px;
+  gap: 0 20px;
+}
+.deals-card {
+  flex: 1;
+  height: 270px;
+}
+.deals-img {
+  width: 100%;
+  height: 133px;
+}
+.deals-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.deals-content-one {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.deals-content-two {
+  font-size: 14px;
+  color: #555555;
+}
