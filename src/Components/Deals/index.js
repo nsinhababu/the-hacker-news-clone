@@ -15,7 +15,8 @@ const Deals = () => {
             <div className='deals-card'>
               <div className='deals-img-container'>
                 <img
-                  src={`assets/${imgNmbrArr[index]}.jpg`}
+                  key={index}
+                  src={`assets/${imgNmbr}.jpg`}
                   alt=''
                   className='deals-img'
                 />

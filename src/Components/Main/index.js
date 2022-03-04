@@ -6,6 +6,18 @@ import { WeeklyCard } from './card';
 import './styles.css';
 
 const Main = () => {
+  const imgArr = [
+    'one',
+    'two',
+    'three',
+    'four',
+    'five',
+    'six',
+    'seven',
+    'eight',
+    'nine',
+  ];
+
   return (
     <main className='main'>
       <div className='main__container'>
