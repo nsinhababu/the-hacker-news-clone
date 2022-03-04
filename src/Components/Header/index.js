@@ -1,9 +1,10 @@
 //components
 import NavBar from './Navbar';
 import Search from './search';
+import { SocialLinks } from '../../consts';
 
 //data
-
+// CSS
 import './styles.css';
 
 const Header = () => {
@@ -15,21 +16,7 @@ const Header = () => {
             <a className='social-links' href='#'>
               Follow US
             </a>
-            <a className='social-links' href='#'>
-              FaceBook
-            </a>
-            <a className='social-links' href='#'>
-              Twiter
-            </a>
-            <a className='social-links' href='#'>
-              LinkedIn
-            </a>
-            <a className='social-links' href='#'>
-              YouTube
-            </a>
-            <a className='social-links' href='#'>
-              Feeds
-            </a>
+            <SocialLinks />
           </div>
         </div>
         <div className='header__bottom'>

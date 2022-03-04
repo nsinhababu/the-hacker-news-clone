@@ -25,7 +25,7 @@ const NavBar = () => {
         <div>
           <a href='#'>Contact</a>
         </div>
-        <div className='nav__bar-search'>search img</div>
+        <div className='nav__bar-search-btn'>search img</div>
         <div className='nav__bar-menu'>menu </div>
       </nav>
     </section>

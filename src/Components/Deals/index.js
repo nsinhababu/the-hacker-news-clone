@@ -12,10 +12,9 @@ const Deals = () => {
         {/* loop */}
         {imgNmbrArr.map((imgNmbr, index) => {
           return (
-            <div className='deals-card'>
+            <div className='deals-card' key={index}>
               <div className='deals-img-container'>
                 <img
-                  key={index}
                   src={`assets/${imgNmbr}.jpg`}
                   alt=''
                   className='deals-img'
