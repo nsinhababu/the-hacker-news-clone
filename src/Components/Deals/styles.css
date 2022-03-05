@@ -20,6 +20,9 @@
   flex: 1;
   height: 270px;
 }
+.deals-card:hover {
+  transform: translateY(-6px);
+}
 .deals-img {
   width: 100%;
   height: 133px;

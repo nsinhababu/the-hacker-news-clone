@@ -52,16 +52,26 @@
 .card__hdng {
   flex: 3;
   color: #333333;
+  text-align: left;
+}
+.card__container:hover .card__hdng {
+  text-decoration: underline;
 }
 .card__author {
   flex: 1;
   color: #555555;
   font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.card__author p {
+  margin-left: 15px;
 }
 .card__content {
   flex: 2;
   color: #444444;
   font-size: 15px;
+  text-align: left;
 }
 
 .button-container {
@@ -113,4 +123,8 @@
   width: calc(100% - 72px);
   height: 72px;
   padding-left: 20px;
+  color: #444;
+}
+.weekly-card-container:hover .weekly-card-title {
+  text-decoration: underline #444;
 }

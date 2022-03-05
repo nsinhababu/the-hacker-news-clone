@@ -49,3 +49,6 @@
   top: 5px;
   right: 5px;
 }
+.subscribe-btn:hover {
+  background-color: #00bfff;
+}

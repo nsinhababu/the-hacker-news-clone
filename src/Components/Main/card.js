@@ -31,7 +31,10 @@ const Card = (props) => {
               </div>
               <div className='card__content-container'>
                 <h2 className='card__hdng'>Lorem ipsum dolor sit amet.</h2>
-                <div className='card__author'>Lorem ipsum dolor sit amet.</div>
+                <div className='card__author'>
+                  <p>sit amet.</p>
+                  <p>Lorem ipsum dolor</p>
+                </div>
                 <div className='card__content'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                   quae illum voluptates quisquam dolorum alias.
