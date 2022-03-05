@@ -1,14 +1,23 @@
-export const WeeklyCard = () => {
+export const WeeklyCard = (props) => {
+  const imgArr = props.img;
   return (
-    <div className='weekly-card-container'>
-      <img src='' alt='' className='weekly-card-img' />
-      <div className='weekly-card-title'></div>
-    </div>
+    <>
+      {imgArr.map((img, index) => {
+        return (
+          <div className='weekly-card-container' key={index}>
+            <img src={`assets/${img}.jpg`} alt='' className='weekly-card-img' />
+            <div className='weekly-card-title'>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Officiis, magni.
+            </div>
+          </div>
+        );
+      })}
+    </>
   );
 };
 
 const Card = (props) => {
-  console.log(props.img);
   const imgArr = props.img;
 
   return (

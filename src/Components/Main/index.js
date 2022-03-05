@@ -39,7 +39,7 @@ const Main = () => {
 
         <div className='popular-weekly'>
           <div className='weekly-hdng'>Popular This Week</div>
-          <WeeklyCard />
+          <WeeklyCard img={imgArr} />
         </div>
       </div>
     </main>
