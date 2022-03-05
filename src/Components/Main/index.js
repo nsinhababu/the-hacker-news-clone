@@ -1,3 +1,6 @@
+// Hooks
+import { useState } from 'react';
+
 // Components
 import Card from './card';
 import { WeeklyCard } from './card';
@@ -6,7 +9,7 @@ import { WeeklyCard } from './card';
 import './styles.css';
 
 const Main = () => {
-  const imgArr = [
+  const [imgArr, setImgArr] = useState([
     'one',
     'two',
     'three',
@@ -14,16 +17,14 @@ const Main = () => {
     'five',
     'six',
     'seven',
-    'eight',
-    'nine',
-  ];
+  ]);
 
   return (
     <main className='main'>
       <div className='main__container'>
         <div className='main__content-container'>
           <div className='recent-event-container'>
-            <Card />
+            <Card img={imgArr} />;
           </div>
 
           <div className='button-container'>

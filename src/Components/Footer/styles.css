@@ -1,0 +1,10 @@
+a {
+  color: black;
+}
+.footer {
+  height: 500px;
+}
+.footer div {
+  width: 1120px;
+  margin: 0 auto;
+}

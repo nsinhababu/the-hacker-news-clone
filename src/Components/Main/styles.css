@@ -20,41 +20,48 @@
 .recent-event-container {
   padding-right: 35px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
 }
 
 /* Cards */
+/* .card__link{
+
+} */
 .card__container {
   height: 162px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
 }
 .card__img {
   width: 305px;
   height: 162px;
-  border: 1px solid black;
 }
 .card__content-container {
   width: 405px;
   height: 162px;
-  border: 1px solid black;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 10px 0;
 }
 .card__hdng {
-  border: 1px solid black;
   flex: 3;
+  color: #333333;
 }
 .card__author {
-  border: 1px solid black;
   flex: 1;
+  color: #555555;
+  font-size: 13px;
 }
 .card__content {
-  border: 1px solid black;
   flex: 2;
+  color: #444444;
+  font-size: 15px;
 }
 
 .button-container {

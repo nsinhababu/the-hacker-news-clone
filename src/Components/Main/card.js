@@ -7,20 +7,32 @@ export const WeeklyCard = () => {
   );
 };
 
-const Card = () => {
+const Card = (props) => {
+  console.log(props.img);
+  const imgArr = props.img;
+
   return (
-    <a href=''>
-      <div className='card__container'>
-        <div>
-          <img src='' alt='' className='card__img' />
-        </div>
-        <div className='card__content-container'>
-          <h2 className='card__hdng'>New News</h2>
-          <div className='card__author'></div>
-          <div className='card__content'></div>
-        </div>
-      </div>
-    </a>
+    <>
+      {imgArr.map((img, index) => {
+        return (
+          <a className='card__link' href='' key={index}>
+            <div className='card__container'>
+              <div>
+                <img src={`assets/${img}.jpg`} alt='' className='card__img' />
+              </div>
+              <div className='card__content-container'>
+                <h2 className='card__hdng'>Lorem ipsum dolor sit amet.</h2>
+                <div className='card__author'>Lorem ipsum dolor sit amet.</div>
+                <div className='card__content'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                  quae illum voluptates quisquam dolorum alias.
+                </div>
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </>
   );
 };
 

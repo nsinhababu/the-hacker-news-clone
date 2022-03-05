@@ -7,6 +7,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__links-container'>
+        <div className='follow-us'>Follow US</div>
         <div className='footer__links'>
           <SocialLinks />
         </div>
