@@ -7,7 +7,8 @@ import { SocialLinks } from '../../consts';
 // CSS
 import './styles.css';
 
-const Header = () => {
+const Header = (props) => {
+  console.log(props);
   return (
     <header className='header'>
       <div>

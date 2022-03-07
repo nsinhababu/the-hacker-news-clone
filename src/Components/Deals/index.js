@@ -9,7 +9,6 @@ const Deals = () => {
       <div className='deals-hdng'>Online Courses and Software</div>
 
       <div className='deals-card-container'>
-        {/* loop */}
         {imgNmbrArr.map((imgNmbr, index) => {
           return (
             <div className='deals-card' key={index}>

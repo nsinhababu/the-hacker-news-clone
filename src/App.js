@@ -1,20 +1,12 @@
 //components
-import Header from './Components/Header';
-import Main from './Components/Main';
-import Deals from './Components/Deals';
-import EmailSection from './Components/EmailSection';
-import Footer from './Components/Footer';
+import AppAssemble from './Components/AppAssemble';
 
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <Header />
-      <Main />
-      <Deals />
-      <EmailSection />
-      <Footer />
+      <AppAssemble />
     </div>
   );
 }

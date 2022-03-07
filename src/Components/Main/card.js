@@ -1,3 +1,5 @@
+import ImageBox from '../ImageBox';
+
 export const WeeklyCard = (props) => {
   const imgArr = props.img;
   return (
@@ -26,9 +28,10 @@ const Card = (props) => {
         return (
           <a className='card__link' href='' key={index}>
             <div className='card__container'>
-              <div>
+              <ImageBox imgSrc={`assets/${img}.jpg`} />
+              {/* <div>
                 <img src={`assets/${img}.jpg`} alt='' className='card__img' />
-              </div>
+              </div> */}
               <div className='card__content-container'>
                 <h2 className='card__hdng'>Lorem ipsum dolor sit amet.</h2>
                 <div className='card__author'>

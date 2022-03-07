@@ -1,3 +1,15 @@
+// const imgDataArr =[{
+//   basePath,
+//   imgname,
+//   imgType
+// }]
+
+// export const Link = ()=>{
+//   <div className="link-container">
+//     <a href=""></a>
+//   </div>
+// }
+
 export const SocialLinks = () => {
   return (
     <>
