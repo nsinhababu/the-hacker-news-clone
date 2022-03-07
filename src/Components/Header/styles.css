@@ -56,13 +56,29 @@ a {
 }
 
 /* Search */
-.search__container {
+.search__container-show,
+.search__container-hide {
   height: 58px;
   display: flex;
   align-items: center;
   background-color: #fafafa;
 }
+.search__container-hide {
+  position: relative;
+  z-index: -1;
+  top: -52px;
+  opacity: 0;
+}
+.search__container-show {
+  position: inherit;
+  z-index: 0;
+  /* top: -52px; */
+  opacity: 1;
+}
+
 .search {
   width: 100%;
   padding: 10px;
+  outline: none;
+  border: none;
 }

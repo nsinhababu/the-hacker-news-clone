@@ -2,13 +2,20 @@
 import NavBar from './Navbar';
 import Search from './search';
 import { SocialLinks } from '../../consts';
+// Hooks
+import { useState } from 'react';
 
 //data
 // CSS
 import './styles.css';
 
-const Header = (props) => {
-  console.log(props);
+const Header = () => {
+  const [showSearch, setShowSearch] = useState(true);
+
+  const handleSearch = () => {
+    setShowSearch(!showSearch);
+  };
+
   return (
     <header className='header'>
       <div>
@@ -31,8 +38,8 @@ const Header = (props) => {
           </div>
         </div>
       </div>
-      <NavBar />
-      <Search />
+      <NavBar handleSearch={handleSearch} />
+      <Search showSearch={showSearch} />
     </header>
   );
 };

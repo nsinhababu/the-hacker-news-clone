@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 // Components
 import Card from './card';
-import { WeeklyCard } from './card';
+import WeeklyCard from './weeklyCard';
 
 // CSS
 import './styles.css';

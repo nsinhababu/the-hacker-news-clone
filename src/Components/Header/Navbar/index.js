@@ -1,6 +1,6 @@
 //components
 
-const NavBar = () => {
+const NavBar = ({ handleSearch }) => {
   return (
     <section className='nav-section'>
       <nav className='nav__bar clear-margin'>
@@ -25,7 +25,9 @@ const NavBar = () => {
         <div>
           <a href='#'>Contact</a>
         </div>
-        <div className='nav__bar-search-btn'>search img</div>
+        <button onClick={handleSearch} className='nav__bar-search-btn'>
+          search img
+        </button>
         <div className='nav__bar-menu'>menu </div>
       </nav>
     </section>
